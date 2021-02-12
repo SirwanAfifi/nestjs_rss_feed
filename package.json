@@ -1,6 +1,6 @@
 {
   "name": "nestjs-rss-feed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A RSS Feed Generator",
   "author": "Sirwan Afifi <sir1afifi@gmail.com>",
   "contributors": [],
@@ -16,6 +16,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/SirwanAfifi/nestjs_rss_feed",
   "files": [
     "dist"
   ],

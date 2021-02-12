@@ -5,4 +5,5 @@ export interface Options {
   image?: string;
   favicon?: string;
   link?: string;
+  language?: string;
 }

@@ -19,6 +19,7 @@ export class RssInterceptor implements NestInterceptor {
       copyright: "Copyright",
       image: "/image.png",
       favicon: "/favicon.ico",
+      language: "en",
     }
   ) {}
 
@@ -35,6 +36,7 @@ export class RssInterceptor implements NestInterceptor {
       image: this.options.image,
       favicon: this.options.favicon,
       copyright: this.options.copyright,
+      language: this.options.language,
     });
 
     return next.handle().pipe(
